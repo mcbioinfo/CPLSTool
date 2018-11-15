@@ -1,0 +1,1 @@
+/home/lusf/software/CPLSTool/program/example/qiime_scripts/parallel_beta_diversity.py -i /home/lusf/software/CPLSTool/program/example/qiime_result/otu_table_mc2_w_tax_no_pynast_failures.biom -o beta -t rep_set.tre -m bray_curtis,weighted_unifrac, unweighted_unifrac

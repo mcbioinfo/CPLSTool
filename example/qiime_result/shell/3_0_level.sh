@@ -1,0 +1,1 @@
+/home/lusf/software/CPLSTool/program/example/qiime_scripts/summarize_taxa_through_plots.py -i /home/lusf/software/CPLSTool/program/example/qiime_result/otu_table_mc2_w_tax_no_pynast_failures.biom -o /home/lusf/software/CPLSTool/program/example/qiime_result/taxa_summaries

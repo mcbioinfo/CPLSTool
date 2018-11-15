@@ -1,0 +1,15 @@
+[Para]
+#pickotu
+Para_inputdir=/home/lusf/software/CPLSTool/program/example/qiime_input
+Para_outputdir=/home/lusf/software/CPLSTool/program/example/qiime_result
+#biom2table
+#level
+#alphadiversity
+#betadiversity
+[DB]
+#pickotu
+DB_reference=/home/lusf/software/CPLSTool/program/example/qiime_input/97_otus.fasta
+#biom2table
+#level
+#alphadiversity
+#betadiversity

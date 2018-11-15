@@ -1,0 +1,6 @@
+#!/root/miniconda2/envs/qiime1.9.1/bin/python
+if __name__ == '__main__':
+    import sys
+    import biom.cli
+
+    sys.exit(biom.cli.cli())

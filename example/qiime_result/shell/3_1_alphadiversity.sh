@@ -1,0 +1,1 @@
+/home/lusf/software/CPLSTool/program/example/qiime_scripts/parallel_alpha_diversity.py -i /home/lusf/software/CPLSTool/program/example/qiime_result/otu_table_mc2_w_tax_no_pynast_failures.biom -o alpha -m chao1,observed_species,shannon,simpson -t rep_set.tre
