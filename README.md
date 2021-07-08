@@ -13,12 +13,12 @@ Description:
 2.It is obvious that inputdir, outputdir and reference are the parameters set in the example of  BIN_module.txt file.
 3. It's important to note that [sample] is another part, which can be set when the number of input samples are more than one, especially when the samples need to be analyzed one by one. The example is as the following:
   
-(1)	The first column are experiment numbers of the samples;
-(2)	The second column are the names of the samples,which will be used in the result;
-(3)	The third column is the insert length of experiment libraries;
-(4)	The fourth column is the sequencing length;
-(5)	The fifth column is the base number of the samples;
-(6)	The sixth column is quality control of the samples,such as raw data or clean data.
+(1)	The first column contains experiment numbers of the samples;
+(2)	The second column contains the names of the samples,which will be used in the result;
+(3)	The third column contains the insert length of experiment libraries;
+(4)	The fourth column contains the sequencing length;
+(5)	The fifth column contains the base number of the samples;
+(6)	The sixth column contains quality control of the samples,such as raw data or clean data.
      
 After the pipeline_config.txt file is finished, users can run the pipeline. There are more useful descriptions after running the pipeline.
 1. If the minor step was broken, the process of all the pipeline would not be affected. But when users checked the show_process(which can be realized by the show_process.py program), the break status would be found. Users need to wait the accomplishment of the whole pipeline and reanalyzed the minor step again or modify the minor steps in shell scripts and deliver it manually.
